@@ -3,7 +3,7 @@ Toilets To KML
 
 A command line tool for processing australian public toilet data (available at https://data.gov.au/dataset/national-public-toilet-map) and converting it into kml for viewing in Google Earth
 
-Depends on (kxml)[http://code.dlang.org/packages/kxml]
+Depends on kxml (http://code.dlang.org/packages/kxml)
 
 Invocation
 ----------
