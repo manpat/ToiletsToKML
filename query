@@ -1,0 +1,41 @@
+sort distto -27.4 153.1
+limit 1000
+# sort descending parkingAccessible
+
+style black
+
+push
+filter showers
+style blue
+pop
+
+push
+filter drinkingwater
+style cyan
+pop
+
+push
+filter SharpsDisposal
+style magenta
+pop
+
+push
+filter accessibleUnisex
+style white
+pop
+
+push
+filter distto -27.4 153.1 < 3
+style green
+pop
+
+style red
+
+push
+filter female
+style green
+pop
+
+# filter male
+
+limit 200
